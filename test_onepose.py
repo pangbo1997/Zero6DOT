@@ -30,7 +30,7 @@ for i,object_name in enumerate(dirs):
         np.savetxt('{}/intri.txt'.format(full_path),intri)
 
         print('Preprocess Video')
-        # process_video(full_path)
+        process_video(full_path)
         print('Done')
         os.makedirs(f'results/reconstructions_{object_name}_{object_no}',exist_ok=True)
 
