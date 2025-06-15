@@ -6,9 +6,9 @@
 > Bo Pang, Deming Zhai, Jianan Zhen, Long Wang, Xu Han, Guofeng Zhang, Xianming Liu                             
 > IEEE Transactions on Circuits and Systems for Video Technology (2025)
 
-![demo1](assets/1.mp4)
-![demo2](assets/2.mp4)
-![demo3](assets/3.mp4)
+![demo1](assets/1.gif)
+![demo2](assets/2.gif)
+
 
 
 ## Preparation
