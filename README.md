@@ -34,7 +34,7 @@ python test_onepose.py
 ```
 
 ## Render OmniObject3D and Train CoTracker
-Follow the instructions in the obj-rendering directory to generate the rendered results of OmniObject3D.
+Follow the instructions in the obj-rendering directory to generate the rendered results of [OmniObject3D](https://omniobject3d.github.io/).
 Then, refer to the code in cotracker-dataset and the official Co-Tracker repository to train the model.
 
 
@@ -53,4 +53,6 @@ If you find this code useful for your research, please use the following BibTeX 
   keywords={Solid modeling;Three-dimensional displays;Pose estimation;Data models;Accuracy;Training;Robustness;Point cloud compression;Annotations;Predictive models;6D Pose Tracking;Monocular RGB Video;Zero-shot},
   doi={10.1109/TCSVT.2025.3577617}}
 ```
+
+
 
