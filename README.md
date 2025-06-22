@@ -25,8 +25,7 @@ Additionally, for g2opy, refer to this [issue](https://github.com/uoip/g2opy/iss
 ## Inference
 Download the official dataset and extract it. Then, download our pretrained Co-Tracker model from [here](https://pan.baidu.com/s/1adtjj8vEomNvlxiDZ1J1WQ?pwd=igbt) and place it in the third_party/co-tracker directory.
 We use  [Track-Anything](https://github.com/gaomingqi/Track-Anything)  to obtain the segmentation results. It uses SAM to generate the initial mask in the first frame and XMem for mask tracking. You can download our segmentation results from [here](https://pan.baidu.com/s/1_TdaB3yiaa8bXlcJGHyXcA?pwd=jfyk), and place them in the dataset folder.
-> Note: The videos were segmented at a resolution of 640×480. We then apply simple linear interpolation to super-resolve the masks, and crop the objects from the original images accordingly.
-Then put the segmention results in the dataset folder.
+> Note: The videos were segmented at a resolution of 640×480. We perform simple linear interpolation on the masks for super-resolution and crop the objects from the original images accordingly. 
 
 Finally, set the dataset path in the script and run the following command:
 ```shell
